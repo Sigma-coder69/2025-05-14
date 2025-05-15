@@ -77,9 +77,13 @@ h3{
   margin-top: 20px;
   align-items: center;
 }
+.contact-info{
+    text-align: center;
+}
 
 .map {
-  margin-top: 30px;
+    width: 600px;
+    height: 600px;
   border-radius: 10px;
 }
 .istorija{
