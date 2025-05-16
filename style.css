@@ -22,6 +22,7 @@ nav {
     display: flex;
     margin: 0;
     padding: 0;
+    
 }
 
 .list li {
@@ -29,7 +30,7 @@ nav {
 }
 
 .KITM{
-    width: 70px;
+    width: 30px;
     height: auto;
 }
 h1{
@@ -82,9 +83,10 @@ h3{
 }
 
 .map {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
   border-radius: 10px;
+  padding: 10px;
 }
 .istorija{
     max-width: 30%;
@@ -95,5 +97,7 @@ footer {
   background-color: #9aceeb;
   padding: 20px;
   text-align: center;
-  margin: -8px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
 }
