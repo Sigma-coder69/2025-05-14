@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url('img_girl.jpg');
 }
 a{
 text-decoration: none;
@@ -30,7 +31,7 @@ nav {
 }
 
 .KITM{
-    width: 30px;
+    width: 125px;
     height: auto;
 }
 h1{
@@ -88,16 +89,13 @@ h3{
   border-radius: 10px;
   padding: 10px;
 }
-.istorija{
-    max-width: 30%;
-    margin: auto;
-}
 
 footer {
   background-color: #9aceeb;
-  padding: 20px;
   text-align: center;
+  padding: 0px;
   position: fixed;
-  bottom: 0;
-  width: 100vw;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
 }
