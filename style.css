@@ -1,8 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('img_girl.jpg');
 }
 a{
+    font-size: 25px;
 text-decoration: none;
 color: black;
 }
@@ -10,7 +15,10 @@ nav {
     margin: -8px;
     background-color: #9aceeb;
 }
-
+nav a:hover{
+            color: red;
+    transition: 0.3s ease-out;
+}
 .nav-content {
     display: flex;
     justify-content: center;
@@ -40,10 +48,14 @@ h1{
 h3{
     text-align: center;
 }
-.straipsniai {
+.straipsniai{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+.straipsniai :hover{
+        color: red;
+    transition: 0.3s ease-out;
 }
 .straipsnis {
     max-width: 250px;
@@ -64,6 +76,26 @@ h3{
     padding: 20px;
     background-color: #f2f2f2;
     border-radius: 10px;
+}
+.Struktūra-box{
+    text-align: center;
+}
+.Struktūra{
+    width: 50%;
+    height: auto;
+}
+
+.Partneriai-box{
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Partneriai img{
+
+    width: 180px;
+    height: auto;
 }
 
 .article img {
@@ -90,12 +122,27 @@ h3{
   padding: 10px;
 }
 
-footer {
+.footer-container {
   background-color: #9aceeb;
-  text-align: center;
-  padding: 0px;
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
+  padding-bottom:4rem;
+
+}
+.footer{
+    width: 80%;
+    height: 40vh;
+    background-color: #9aceeb;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    gap: 20px;
+}
+.footer-heading a:hover{
+    color: red;
+    transition: 0.3s ease-out;
 }
